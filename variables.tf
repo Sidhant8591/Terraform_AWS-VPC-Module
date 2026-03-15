@@ -1,7 +1,7 @@
 variable "region" {
   description = "The AWS region to deploy the resources"
   type        = string
-  default     = "ap-southeast-1"  # You can set a default value if needed
+  default     = "ap-southeast-1"  
 }
 
 # VPC CIDR block
