@@ -8,7 +8,6 @@ resource "aws_vpc" "main_vpc" {
   }
 }
 
-# Data source to fetch availability zones dynamically
 data "aws_availability_zones" "available" {}
 
 # Create Public Subnets (dynamically based on the length of var.public_subnets)
