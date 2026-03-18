@@ -1,4 +1,4 @@
- 🏗️ Terraform AWS VPC Module
+# 🏗️ Terraform AWS VPC Module
  
 A production-ready Terraform module to provision a **3-tier AWS VPC** architecture with public, application (private), and database (private) subnets — dynamically distributed across Availability Zones.
  
