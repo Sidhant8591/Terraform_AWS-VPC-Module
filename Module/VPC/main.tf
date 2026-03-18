@@ -8,6 +8,7 @@ resource "aws_vpc" "main_vpc" {
   }
 }
 
+
 data "aws_availability_zones" "available" {}
 
 # Create Public Subnets (dynamically based on the length of var.public_subnets)
@@ -131,6 +132,7 @@ resource "aws_route_table_association" "app_association" {
   route_table_id = aws_route_table.app_route_table.id
 }
 
+
 # Create Route Table for DB Tier Private Subnets
 resource "aws_route_table" "db_route_table" {
   vpc_id = aws_vpc.main_vpc.id
@@ -138,6 +140,7 @@ resource "aws_route_table" "db_route_table" {
     Name = "${var.organization_prefix}-db-rt"
   }
 }
+
 
 resource "aws_route_table_association" "db_association" {
   count = length(var.db_subnets)
