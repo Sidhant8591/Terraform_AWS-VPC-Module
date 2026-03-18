@@ -182,6 +182,6 @@ All resources are named using the `organization_prefix` variable. For example, w
  
 ---
  
-## 📄 License
+# 📄 License
  
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
