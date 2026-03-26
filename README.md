@@ -113,7 +113,7 @@ create_nat_gateway = true
  
 ```bash
 git clone https://github.com/Sidhant8591/Terraform_AWS-VPC-Module.git
-cd terraform-aws-vpc
+cd Terraform_AWS-VPC-Module
 ```
  
 ### 3. Configure Variables
