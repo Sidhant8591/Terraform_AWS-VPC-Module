@@ -112,7 +112,7 @@ create_nat_gateway = true
 ### 2. Clone the Repository
  
 ```bash
-git clone https://github.com/your-org/terraform-aws-vpc.git
+git clone https://github.com/Sidhant8591/Terraform_AWS-VPC-Module.git
 cd terraform-aws-vpc
 ```
  
